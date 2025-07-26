@@ -1,0 +1,31 @@
+Species_Common,Species_Local,Species_Scientific,Quantity,Zone,Spacing_m,Primary_Function,Guild_Role,Water_Needs,Years_to_Production
+Mango,Aam,Mangifera indica,30,3,10-12,Fruit,Canopy,Medium,5-6
+Guava,Amrud,Psidium guajava,30,2,6-8,Fruit,Sub-canopy,Low,2-3
+Sapota,Cheeku,Manilkara zapota,10,2,8-10,Fruit,Sub-canopy,Medium,5-7
+Papaya,Papita,Carica papaya,20,1,3-4,Fruit,Understory,High,0.5-1
+Moringa,Munga,Moringa oleifera,5,1,5-6,Vegetable/Medicine,Nitrogen fixer,Low,0.5-1
+Sesbania,Agast,Sesbania grandiflora,5,4,6-8,Nitrogen fixer,Support species,Low,1-2
+Banana,Kela,Musa spp,20,1,3-4,Fruit,Understory,High,0.75-1
+Litchi,Litchi,Litchi chinensis,10,3,10-12,Fruit,Canopy,Medium,5-6
+Jackfruit,Kathal,Artocarpus heterophyllus,5,3,12-15,Fruit,Canopy,Medium,5-7
+Pomegranate,Anaar,Punica granatum,10,2,5-6,Fruit,Shrub layer,Low,2-3
+Custard Apple,Sharifa,Annona reticulata,10,2,6-8,Fruit,Sub-canopy,Low,3-4
+Jamun,Jamun,Syzygium cumini,10,3,10-12,Fruit,Canopy,Low,7-8
+Mulberry,Tuut,Morus alba,10,2,6-8,Fruit,Sub-canopy,Medium,2-3
+Cherry,Cherry,Prunus avium,5,2,8-10,Fruit,Sub-canopy,Medium,4-5
+Lemon,Nimbu,Citrus limon,10,1,5-6,Fruit,Sub-canopy,Medium,3
+Key Lime,Kaagazi Nimbu,Citrus aurantifolia,10,1,5-6,Fruit,Sub-canopy,Medium,3
+Orange,Santara,Citrus sinensis,10,1,6-8,Fruit,Sub-canopy,Medium,4-5
+Sweet Lime,Mosambi,Citrus limetta,10,1,6-8,Fruit,Sub-canopy,Medium,4-5
+Fig,Anjeer,Ficus carica,5,2,6-8,Fruit,Sub-canopy,Low,2
+Neem,Neem,Azadirachta indica,5,4,10-12,Pest deterrent,Canopy,Low,4-5
+Apple,Seb,Malus domestica,10,3,6-8,Fruit,Sub-canopy,Medium,4-5
+Red Guava,Red Amrud,Psidium guajava,5,2,6-8,Fruit,Sub-canopy,Low,2-3
+Pear,Naashpaati,Pyrus communis,10,3,6-8,Fruit,Sub-canopy,Medium,4-5
+Long Melon,Dighaa Maalada,Cucumis melo,5,1,2-3,Fruit,Groundcover,High,0.25
+Teak,Saagwan,Tectona grandis,50,4,8-10,Timber,Canopy,Low,15-20
+Mahogany,Mahogany,Swietenia macrophylla,50,4,8-10,Timber,Canopy,Low,20-25
+Bay Leaf,Tejpatta,Cinnamomum tamala,5,4,6-8,Spice,Understory,Medium,3-4
+Wood Apple,Bel,Aegle marmelos,5,3,8-10,Fruit/Medicine,Sub-canopy,Low,6-7
+Indian Gooseberry,Aawla,Phyllanthus emblica,10,3,8-10,Fruit/Medicine,Sub-canopy,Low,5-6
+Carissa,Karaonda,Carissa carandas,5,2,4-5,Fruit,Shrub layer,Low,2-3
