@@ -1,211 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
+    <title>Food Forest Plan</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food Forest - Permaculture Design</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background: #f5f5f5; }
+        h1 { color: #2d5a2d; }
+        .links { margin: 20px 0; }
+        .links a { display: inline-block; margin: 10px; padding: 10px 20px; background: #4a7c4a; color: white; text-decoration: none; border-radius: 5px; }
+        .links a:hover { background: #2d5a2d; }
+        .info { background: white; padding: 20px; border-radius: 5px; margin: 20px 0; }
+    </style>
 </head>
 <body>
-    <header class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title">Food Forest</h1>
-            <p class="hero-subtitle">6 Hectare Permaculture Plantation Design</p>
-            <div class="hero-stats">
-                <div class="stat">
-                    <span class="stat-number">385</span>
-                    <span class="stat-label">Trees</span>
-                </div>
-                <div class="stat">
-                    <span class="stat-number">31</span>
-                    <span class="stat-label">Species</span>
-                </div>
-                <div class="stat">
-                    <span class="stat-number">6</span>
-                    <span class="stat-label">Hectares</span>
-                </div>
-            </div>
-        </div>
-        <div class="hero-image"></div>
-    </header>
+    <h1>Food Forest - 6 Hectare Plan</h1>
+    
+    <div class="info">
+        <p><strong>Size:</strong> 400m × 150m (6 hectares)</p>
+        <p><strong>Trees:</strong> 385 trees across 31 species</p>
+        <p><strong>Water:</strong> River on southern boundary</p>
+    </div>
 
-    <nav class="main-nav">
-        <div class="nav-container">
-            <a href="#overview" class="nav-link">Overview</a>
-            <a href="#documents" class="nav-link">Documents</a>
-            <a href="#zones" class="nav-link">Zones</a>
-            <a href="#timeline" class="nav-link">Timeline</a>
-        </div>
-    </nav>
-
-    <main class="container">
-        <section id="overview" class="section">
-            <h2 class="section-title">Project Overview</h2>
-            <div class="info-grid">
-                <div class="info-card">
-                    <h3>🌍 Location</h3>
-                    <p>Personal Land<br>
-                    Subtropical Climate<br>
-                    River Access (South)</p>
-                </div>
-                <div class="info-card">
-                    <h3>📐 Dimensions</h3>
-                    <p>400m North-South<br>
-                    150m East-West<br>
-                    60,000 m² Total</p>
-                </div>
-                <div class="info-card">
-                    <h3>💧 Water Source</h3>
-                    <p>River (Southern edge)<br>
-                    Gravity-fed irrigation<br>
-                    Swales & channels</p>
-                </div>
-                <div class="info-card">
-                    <h3>🌡️ Climate</h3>
-                    <p>Hot summers (45°C)<br>
-                    Monsoon: June-Sept<br>
-                    1000-1200mm rainfall</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="documents" class="section">
-            <h2 class="section-title">Documentation</h2>
-            <div class="doc-grid">
-                <a href="detailed_ascii_art_plan" class="doc-card">
-                    <div class="doc-icon">🎨</div>
-                    <h3>Visual Planting Plan</h3>
-                    <p>Complete ASCII art visualization with tree placement, zones, and guild patterns</p>
-                </a>
-                <a href="planting_pattern_measurements" class="doc-card">
-                    <div class="doc-icon">📏</div>
-                    <h3>Precise Measurements</h3>
-                    <p>Exact coordinates for every tree with spacing specifications</p>
-                </a>
-                <a href="companion_planting_guide" class="doc-card">
-                    <div class="doc-icon">🌿</div>
-                    <h3>Companion Planting</h3>
-                    <p>Ecological guilds, nitrogen-fixing partnerships, and pest management</p>
-                </a>
-                <a href="plant_inventory.csv" class="doc-card" download>
-                    <div class="doc-icon">📊</div>
-                    <h3>Plant Database</h3>
-                    <p>Spreadsheet with all 385 trees including zones and requirements</p>
-                </a>
-            </div>
-        </section>
-
-        <section id="zones" class="section">
-            <h2 class="section-title">Planting Zones</h2>
-            <div class="zones-container">
-                <div class="zone-card zone-1">
-                    <h3>Zone 1: Timber Belt</h3>
-                    <div class="zone-details">
-                        <p><strong>0-30m from North</strong></p>
-                        <p>100 trees • Windbreak protection</p>
-                        <p>Species: Teak (50), Mahogany (50)</p>
-                    </div>
-                </div>
-                <div class="zone-card zone-2">
-                    <h3>Zone 2: Large Fruits</h3>
-                    <div class="zone-details">
-                        <p><strong>30-120m from North</strong></p>
-                        <p>140 trees • Main production area</p>
-                        <p>Mango, Jamun, Litchi, Jackfruit</p>
-                    </div>
-                </div>
-                <div class="zone-card zone-3">
-                    <h3>Zone 3: Mixed Orchard</h3>
-                    <div class="zone-details">
-                        <p><strong>80-120m from North</strong></p>
-                        <p>80 trees • Diverse harvest</p>
-                        <p>Guava, Citrus, Pomegranate</p>
-                    </div>
-                </div>
-                <div class="zone-card zone-4">
-                    <h3>Zone 4: Riverside</h3>
-                    <div class="zone-details">
-                        <p><strong>120-150m from North</strong></p>
-                        <p>65 trees • Quick yield crops</p>
-                        <p>Banana-Papaya circles</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="timeline" class="section">
-            <h2 class="section-title">Implementation Timeline</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-marker">1</div>
-                    <div class="timeline-content">
-                        <h3>Year 1</h3>
-                        <p>Water infrastructure • Timber belt • Banana circles</p>
-                        <div class="progress-bar"><div class="progress" style="width: 25%;"></div></div>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-marker">2</div>
-                    <div class="timeline-content">
-                        <h3>Year 2</h3>
-                        <p>Main fruit trees • Companion species • Irrigation system</p>
-                        <div class="progress-bar"><div class="progress" style="width: 50%;"></div></div>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-marker">3</div>
-                    <div class="timeline-content">
-                        <h3>Year 3</h3>
-                        <p>Fill remaining spaces • Ground covers • First harvests</p>
-                        <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-marker">4</div>
-                    <div class="timeline-content">
-                        <h3>Year 4+</h3>
-                        <p>Complete establishment • Full production begins</p>
-                        <div class="progress-bar"><div class="progress" style="width: 100%;"></div></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="section">
-            <h2 class="section-title">Plant Categories</h2>
-            <div class="category-grid">
-                <div class="category-card">
-                    <h4>🌳 Timber</h4>
-                    <p>100 trees</p>
-                </div>
-                <div class="category-card">
-                    <h4>🥭 Large Fruits</h4>
-                    <p>55 trees</p>
-                </div>
-                <div class="category-card">
-                    <h4>🍊 Citrus</h4>
-                    <p>40 trees</p>
-                </div>
-                <div class="category-card">
-                    <h4>🍈 Medium Fruits</h4>
-                    <p>65 trees</p>
-                </div>
-                <div class="category-card">
-                    <h4>🍌 Quick Yield</h4>
-                    <p>48 trees</p>
-                </div>
-                <div class="category-card">
-                    <h4>🌿 Support Species</h4>
-                    <p>25 trees</p>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <p>Designed for optimal yield, minimal maintenance, and ecological resilience</p>
-        <p>Food Forest © 2024</p>
-    </footer>
+    <div class="links">
+        <a href="detailed_ascii_art_plan.md">Visual Plan (ASCII)</a>
+        <a href="planting_pattern_measurements.md">Tree Measurements</a>
+        <a href="companion_planting_guide.md">Companion Planting</a>
+        <a href="plant_inventory.csv">Plant List (CSV)</a>
+    </div>
 </body>
 </html>

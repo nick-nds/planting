@@ -1,9 +1,3 @@
----
-layout: default
-title: Planting Pattern Measurements
-description: Precise coordinates for every tree with spacing specifications
----
-
 # Precise Planting Pattern with Measurements
 ## Food Forest - 400m × 150m Plot
 
