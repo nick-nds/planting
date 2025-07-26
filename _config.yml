@@ -1,0 +1,22 @@
+title: Food Forest Design
+description: 6 Hectare Permaculture Plantation Plan
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+
+# Exclude files
+exclude:
+  - README.md
+  - plants
+
+# Default layout
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"

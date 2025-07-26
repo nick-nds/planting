@@ -1,5 +1,5 @@
 # Precise Planting Pattern with Measurements
-## Bihar Food Forest - 400m × 150m Plot
+## Food Forest - 400m × 150m Plot
 
 ### Plot Dimensions
 - **Total Area**: 60,000 m² (6 hectares)

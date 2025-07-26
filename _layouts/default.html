@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title | default: site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Merriweather:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="hero" style="padding: 40px 0;">
+        <div class="hero-content">
+            <h1 class="hero-title" style="font-size: 2rem;">{{ page.title | default: site.title }}</h1>
+            <p class="hero-subtitle" style="font-size: 1rem;">{{ page.description | default: site.description }}</p>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="{{ '/' | relative_url }}" class="nav-link">Home</a>
+            <a href="{{ '/detailed_ascii_art_plan' | relative_url }}" class="nav-link">Visual Plan</a>
+            <a href="{{ '/planting_pattern_measurements' | relative_url }}" class="nav-link">Measurements</a>
+            <a href="{{ '/companion_planting_guide' | relative_url }}" class="nav-link">Companion Planting</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="markdown-body">
+            {{ content }}
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>Food Forest © 2024</p>
+        <p>Designed for optimal yield, minimal maintenance, and ecological resilience</p>
+    </footer>
+
+    <a href="#" class="back-to-top" id="backToTop">↑</a>
+
+    <script>
+        // Back to top button
+        const backToTop = document.getElementById('backToTop');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 100) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+        });
+
+        backToTop.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+</body>
+</html>

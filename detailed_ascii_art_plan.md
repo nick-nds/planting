@@ -1,4 +1,4 @@
-# Bihar Food Forest - Detailed ASCII Art Planting Plan
+# Food Forest - Detailed ASCII Art Planting Plan
 ## 400m × 150m (6 Hectares) - Actual Tree Placement
 
 ```

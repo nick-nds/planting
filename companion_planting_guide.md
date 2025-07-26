@@ -1,4 +1,4 @@
-# Bihar Food Forest - Companion Planting & Guild Guide
+# Food Forest - Companion Planting & Guild Guide
 
 ## Comprehensive Guild Designs
 
