@@ -1,3 +1,9 @@
+---
+layout: default
+title: Companion Planting Guide
+description: Ecological guilds and companion planting strategies
+---
+
 # Food Forest - Companion Planting & Guild Guide
 
 ## Comprehensive Guild Designs

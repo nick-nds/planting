@@ -1,3 +1,9 @@
+---
+layout: default
+title: Visual Planting Plan
+description: Complete ASCII art visualization with tree placement
+---
+
 # Food Forest - Detailed ASCII Art Planting Plan
 ## 400m × 150m (6 Hectares) - Actual Tree Placement
 

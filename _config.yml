@@ -8,6 +8,9 @@ markdown: kramdown
 plugins:
   - jekyll-seo-tag
 
+# Permalink settings
+permalink: /:title
+
 # Exclude files
 exclude:
   - README.md
